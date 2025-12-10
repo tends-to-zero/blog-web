@@ -1,0 +1,123 @@
+const data = [
+  {
+    id: 1,
+    title: "Mastering Tailwind CSS in 2025",
+    slug: "mastering-tailwind-2025",
+    author: "Jordan Lee",
+    date: "2025-01-12",
+    readingTime: "6 min read",
+    tags: ["Tailwind", "CSS"],
+    image: "https://picsum.photos/seed/234/600/400",
+    excerpt:
+      "A complete guide to building modern, responsive interfaces with Tailwind's latest features.",
+  },
+  {
+    id: 2,
+    title: "Understanding React Server Components",
+    slug: "react-server-components-guide",
+    author: "Emily Carter",
+    date: "2025-02-03",
+    readingTime: "7 min read",
+    tags: ["React", "Frontend"],
+    image: "https://picsum.photos/seed/rscguide/600/400",
+    excerpt:
+      "React Server Components simplify UI rendering and boost performance. Here's how they work.",
+  },
+  {
+    id: 3,
+    title: "The Rise of AI-Assisted Coding",
+    slug: "ai-assisted-coding",
+    author: "Daniel Park",
+    date: "2025-03-01",
+    readingTime: "5 min read",
+    tags: ["AI", "Programming"],
+    image: "https://picsum.photos/seed/aicode/600/400",
+    excerpt:
+      "Explore how AI tools are transforming software development workflows around the world.",
+  },
+  {
+    id: 4,
+    title: "Next.js vs. Remix: The 2025 Comparison",
+    slug: "nextjs-vs-remix-2025",
+    author: "Sophia Turner",
+    date: "2025-02-11",
+    readingTime: "8 min read",
+    tags: ["Next.js", "Remix"],
+    image: "https://picsum.photos/seed/nextrem/600/400",
+    excerpt:
+      "Two modern full-stack frameworks compared head-to-head in routing, data fetching, and DX.",
+  },
+  {
+    id: 5,
+    title: "A Beginner’s Guide to TypeScript",
+    slug: "typescript-beginners-guide",
+    author: "Liam Wong",
+    date: "2025-01-27",
+    readingTime: "4 min read",
+    tags: ["TypeScript", "Beginner"],
+    image: "https://picsum.photos/seed/tsguide/600/400",
+    excerpt:
+      "Learn how TypeScript improves code quality and reduces bugs with strong typing.",
+  },
+  {
+    id: 6,
+    title: "Understanding Web Performance Metrics",
+    slug: "web-performance-metrics",
+    author: "Isabella Gomez",
+    date: "2025-03-02",
+    readingTime: "6 min read",
+    tags: ["Performance", "Web"],
+    image: "https://picsum.photos/seed/perf2025/600/400",
+    excerpt:
+      "Discover how to measure, analyze, and improve your website's performance using modern metrics.",
+  },
+  {
+    id: 7,
+    title: "Building API-Driven Applications with Node.js",
+    slug: "nodejs-api-driven-apps",
+    author: "Michael Singh",
+    date: "2025-02-18",
+    readingTime: "5 min read",
+    tags: ["Node.js", "Backend"],
+    image: "https://picsum.photos/seed/nodapi/600/400",
+    excerpt:
+      "A practical approach to creating scalable REST and GraphQL APIs with Node.js.",
+  },
+  {
+    id: 8,
+    title: "Top UI/UX Trends to Watch in 2025",
+    slug: "ui-ux-trends-2025",
+    author: "Harper Diaz",
+    date: "2025-01-30",
+    readingTime: "6 min read",
+    tags: ["UI/UX", "Design"],
+    image: "https://picsum.photos/seed/uix25/600/400",
+    excerpt:
+      "A look at the emerging UI/UX trends shaping next-generation digital experiences.",
+  },
+  {
+    id: 9,
+    title: "The Power of Modular Architecture",
+    slug: "modular-architecture-power",
+    author: "Ethan Brooks",
+    date: "2025-03-08",
+    readingTime: "7 min read",
+    tags: ["Architecture", "Software"],
+    image: "https://picsum.photos/seed/modular/600/400",
+    excerpt:
+      "Understand how modular codebases improve maintainability and reduce development friction.",
+  },
+  {
+    id: 10,
+    title: "Creating Dark Mode with CSS Variables",
+    slug: "dark-mode-css-variables",
+    author: "Ava Reynolds",
+    date: "2025-02-25",
+    readingTime: "4 min read",
+    tags: ["CSS", "Design"],
+    image: "https://picsum.photos/seed/darkvar/600/400",
+    excerpt:
+      "A simple guide to building theme-switching UIs using CSS variables and Tailwind.",
+  },
+];
+export default data;

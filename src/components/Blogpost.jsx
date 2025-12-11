@@ -1,11 +1,12 @@
 import { useParams } from "react-router-dom";
 import data from '../assets/data';
+import {motion} from 'motion/react'
 
 const Blogpost = () => {
   const {id} = useParams();
   const post = data.find(b => b.id == id);
   return (
-    <div className="px-5 md:px-10 lg:px-20">
+    <motion.div initial={{opacity:0, y : 20}} animate={{opacity:1, y:0}} transition={{duration:0.8}} className="px-5 md:px-10 lg:px-20">
       <h1 className="text-6xl my-10">{post.title}</h1>
       <img src={post.image} alt={post.title} className="w-full max-h-96 mb-2 object-cover rounded-lg"/>
       <div className="flex items-center gap-5 mb-5 justify-between text-muted-foreground">
@@ -21,7 +22,7 @@ const Blogpost = () => {
         ))}
       </div>
       <p className="text-xl">{post.excerpt}</p>
-    </div>
+    </motion.div>
   )
 }
 

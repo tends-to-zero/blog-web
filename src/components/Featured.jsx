@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../assets/data'
 import { Card, CardDescription, CardHeader, CardTitle } from './ui/card'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const cardVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -21,22 +22,24 @@ const Featured = () => {
             key={post.id}
             variants={cardVariants}
             initial="hidden"
-            whileInView="show"        
-            viewport={{ once: true }}  
+            whileInView="show"
+            viewport={{ once: true }}
             transition={{ delay: index * 0.4 }}
           >
-            <Card className="overflow-hidden pt-0 hover:scale-105 transition-transform duration-300 cursor-pointer">
-              <img
-                src={post.image}
-                alt={post.title}
-                className="w-full h-64 object-cover"
-              />
+            <Link to ={`/blog/${post.id}`}>
+              <Card className="overflow-hidden pt-0 hover:scale-105 transition-transform duration-300 cursor-pointer">
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full h-64 object-cover"
+                />
 
-              <CardHeader>
-                <CardTitle>{post.title}</CardTitle>
-                <CardDescription>{post.excerpt}</CardDescription>
-              </CardHeader>
-            </Card>
+                <CardHeader>
+                  <CardTitle>{post.title}</CardTitle>
+                  <CardDescription>{post.excerpt}</CardDescription>
+                </CardHeader>
+              </Card>
+            </Link>
           </motion.div>
         ))}
       </div>

@@ -4,6 +4,7 @@ import { ThemeProvider } from './components/theme-provider'
 import Hero from './components/Hero'
 import Featured from './components/Featured'
 import Footer from './components/Footer'
+import Explore from './components/Explore'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <Featured />
+        <Explore />
         <Footer />
       </div>
     </ThemeProvider>

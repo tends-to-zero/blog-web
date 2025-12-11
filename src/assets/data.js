@@ -7,7 +7,7 @@ const data = [
     date: "2025-01-12",
     readingTime: "6 min read",
     tags: ["Tailwind", "CSS"],
-    image: "https://picsum.photos/seed/234/600/400",
+    image: "https://picsum.photos/seed/234/1024/1024",
     excerpt:
       "A complete guide to building modern, responsive interfaces with Tailwind's latest features.",
   },
@@ -19,7 +19,7 @@ const data = [
     date: "2025-02-03",
     readingTime: "7 min read",
     tags: ["React", "Frontend"],
-    image: "https://picsum.photos/seed/rscguide/600/400",
+    image: "https://picsum.photos/seed/rscguide/1024/1024",
     excerpt:
       "React Server Components simplify UI rendering and boost performance. Here's how they work.",
   },
@@ -31,7 +31,7 @@ const data = [
     date: "2025-03-01",
     readingTime: "5 min read",
     tags: ["AI", "Programming"],
-    image: "https://picsum.photos/seed/aicode/600/400",
+    image: "https://picsum.photos/seed/aicode/1024/1024",
     excerpt:
       "Explore how AI tools are transforming software development workflows around the world.",
   },
@@ -43,7 +43,7 @@ const data = [
     date: "2025-02-11",
     readingTime: "8 min read",
     tags: ["Next.js", "Remix"],
-    image: "https://picsum.photos/seed/nextrem/600/400",
+    image: "https://picsum.photos/seed/nextrem/1024/1024",
     excerpt:
       "Two modern full-stack frameworks compared head-to-head in routing, data fetching, and DX.",
   },
@@ -55,7 +55,7 @@ const data = [
     date: "2025-01-27",
     readingTime: "4 min read",
     tags: ["TypeScript", "Beginner"],
-    image: "https://picsum.photos/seed/tsguide/600/400",
+    image: "https://picsum.photos/seed/tsguide/1024/1024",
     excerpt:
       "Learn how TypeScript improves code quality and reduces bugs with strong typing.",
   },
@@ -67,7 +67,7 @@ const data = [
     date: "2025-03-02",
     readingTime: "6 min read",
     tags: ["Performance", "Web"],
-    image: "https://picsum.photos/seed/perf2025/600/400",
+    image: "https://picsum.photos/seed/perf2025/1024/1024",
     excerpt:
       "Discover how to measure, analyze, and improve your website's performance using modern metrics.",
   },
@@ -79,7 +79,7 @@ const data = [
     date: "2025-02-18",
     readingTime: "5 min read",
     tags: ["Node.js", "Backend"],
-    image: "https://picsum.photos/seed/nodapi/600/400",
+    image: "https://picsum.photos/seed/nodapi/1024/1024",
     excerpt:
       "A practical approach to creating scalable REST and GraphQL APIs with Node.js.",
   },
@@ -91,7 +91,7 @@ const data = [
     date: "2025-01-30",
     readingTime: "6 min read",
     tags: ["UI/UX", "Design"],
-    image: "https://picsum.photos/seed/uix25/600/400",
+    image: "https://picsum.photos/seed/uix25/1024/1024",
     excerpt:
       "A look at the emerging UI/UX trends shaping next-generation digital experiences.",
   },
@@ -103,7 +103,7 @@ const data = [
     date: "2025-03-08",
     readingTime: "7 min read",
     tags: ["Architecture", "Software"],
-    image: "https://picsum.photos/seed/modular/600/400",
+    image: "https://picsum.photos/seed/modular/1024/1024",
     excerpt:
       "Understand how modular codebases improve maintainability and reduce development friction.",
   },
@@ -115,7 +115,7 @@ const data = [
     date: "2025-02-25",
     readingTime: "4 min read",
     tags: ["CSS", "Design"],
-    image: "https://picsum.photos/seed/darkvar/600/400",
+    image: "https://picsum.photos/seed/darkvar/1024/1024",
     excerpt:
       "A simple guide to building theme-switching UIs using CSS variables and Tailwind.",
   },

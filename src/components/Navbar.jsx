@@ -9,12 +9,15 @@ import {
   SheetHeader,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const { setTheme, theme } = useTheme()
   return (
     <div className='flex items-center justify-between sticky top-0 bg-fore p-5 md:px-20 border-b z-50 backdrop-blur-3xl'>
-      <h1 className='text-2xl font-bold'>Resonance</h1>
+      <Link to={'/'}>
+        <h1 className='text-2xl font-bold'>Resonance</h1>
+      </Link>
       <div className='flex items-center'>
         <ul className='gap-5 hidden  md:flex'>
           <li className='cursor-pointer'>Home</li>

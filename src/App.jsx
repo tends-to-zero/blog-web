@@ -1,22 +1,22 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import { ThemeProvider } from './components/theme-provider'
-import Hero from './components/Hero'
-import Featured from './components/Featured'
-import Footer from './components/Footer'
-import Explore from './components/Explore'
+import { Routes, Route } from "react-router-dom"
+import Homepage from "./Homepage"
+import Blogpost from "./components/Blogpost"
+import Navbar from "./components/Navbar"
+import { ThemeProvider } from "./components/theme-provider"
 
 const App = () => {
   return (
-    <ThemeProvider>
-      <div>
+    <>
+      <ThemeProvider>
         <Navbar />
-        <Hero />
-        <Featured />
-        <Explore />
-        <Footer />
-      </div>
-    </ThemeProvider>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/blog/:id" element={<Blogpost />} />
+        </Routes>
+      </ThemeProvider>
+
+    </>
+
   )
 }
 
